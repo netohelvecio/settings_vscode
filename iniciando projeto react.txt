@@ -1,0 +1,8 @@
+bibliotecas add - react
+
+yarn create react-app nome-do-app 
+yarn add eslint -D
+yarn eslint --init
+yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint eslint-plugin-react-hooks -D
+yarn add react-router-dom
+yarn add styled-components

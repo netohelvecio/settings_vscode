@@ -1,0 +1,11 @@
+npx react-native init (nomedoapp)
+ativar reload (balançar celular)
+
+deletar .eslintrc.js
+yarn add eslint -D
+yarn eslint --init
+yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint eslint-plugin-react-hooks -D
+
+errors cmd:
+adb reverse tcp:9090 tcp: 9090
+adb reverse tcp:8081 tcp:8081
