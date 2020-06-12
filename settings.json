@@ -1,65 +1,67 @@
 {
-    "workbench.colorTheme": "Dracula Soft",
-    "workbench.iconTheme": "material-icon-theme",
-    "window.zoomLevel": 0,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 14,
-    "editor.rulers": [
-        80,
-        120
-    ],
-    "editor.renderLineHighlight": "gutter",
-    "editor.tabSize": 2,
-    "terminal.integrated.fontSize": 12,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact",
-        "edge": "html"
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 0,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.tabSize": 2,
+  "terminal.integrated.fontSize": 12,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "edge": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.parameterHints.enabled": true,
+  "breadcrumbs.enabled": true,
+  "javascript.suggest.autoImports": false,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
     },
-    "emmet.syntaxProfiles": {
-        "javascript": "jsx"
+    {
+      "language": "javascriptreact",
+      "autoFix": true
     },
-    "javascript.updateImportsOnFileMove.enabled": "never",
-    "editor.parameterHints.enabled": true,
-    "breadcrumbs.enabled": true,
-    "javascript.suggest.autoImports": false,
-    "eslint.validate": [
-        {
-            "language": "javascript",
-            "autoFix": true,
-        },
-        {
-            "language": "javascriptreact",
-            "autoFix": true,
-        },
-        {
-            "language": "typescript",
-            "autoFix": true,
-        },
-        {
-            "language": "typescriptreact",
-            "autoFix": true,
-        },
-        { 
-            "language": "typescript", 
-            "autoFix": true 
-        },
-        { 
-            "language": "typescriptreact", 
-            "autoFix": true 
-        }
-    ],
-    "eslint.alwaysShowStatus": true,
-    "eslint.autoFixOnSave": true,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    {
+      "language": "typescript",
+      "autoFix": true
     },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    {
+      "language": "typescriptreact",
+      "autoFix": true
     },
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+    {
+      "language": "typescript",
+      "autoFix": true
     },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "extensions.ignoreRecommendations": false,
+  "explorer.compactFolders": false,
+  "workbench.editor.labelFormat": "short",
+  "editor.semanticHighlighting.enabled": false
 }
